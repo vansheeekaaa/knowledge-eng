@@ -1,0 +1,51 @@
+{
+  "domain": "Student Academic Management System",
+  "category": "Examination and Results",
+  "examination_rules": [
+    "Students with attendance of 75% or above are eligible for examination.",
+    "Students with attendance below 75% receive an examination eligibility warning.",
+    "Attendance below 60% is considered critical."
+  ],
+  "results": [
+    {
+      "student_id": "S1",
+      "subject_id": "SUB1",
+      "marks": 88
+    },
+    {
+      "student_id": "S1",
+      "subject_id": "SUB2",
+      "marks": 76
+    },
+    {
+      "student_id": "S2",
+      "subject_id": "SUB1",
+      "marks": 84
+    },
+    {
+      "student_id": "S2",
+      "subject_id": "SUB2",
+      "marks": 38
+    },
+    {
+      "student_id": "S3",
+      "subject_id": "SUB1",
+      "marks": 35
+    },
+    {
+      "student_id": "S3",
+      "subject_id": "SUB2",
+      "marks": 42
+    },
+    {
+      "student_id": "S4",
+      "subject_id": "SUB1",
+      "marks": 95
+    },
+    {
+      "student_id": "S4",
+      "subject_id": "SUB2",
+      "marks": 91
+    }
+  ]
+}
