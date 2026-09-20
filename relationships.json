@@ -1,0 +1,41 @@
+{
+  "domain": "Student Academic Management System",
+  "category": "Relationships",
+  "relationships": [
+    {
+      "subject": "Student",
+      "relationship": "enrolls in",
+      "object": "Subject"
+    },
+    {
+      "subject": "Faculty",
+      "relationship": "teaches",
+      "object": "Subject"
+    },
+    {
+      "subject": "Student",
+      "relationship": "takes",
+      "object": "Examination"
+    },
+    {
+      "subject": "Student",
+      "relationship": "receives",
+      "object": "Result"
+    },
+    {
+      "subject": "Examination",
+      "relationship": "belongs to",
+      "object": "Subject"
+    },
+    {
+      "subject": "Assignment",
+      "relationship": "belongs to",
+      "object": "Subject"
+    },
+    {
+      "subject": "Student",
+      "relationship": "submits",
+      "object": "Assignment"
+    }
+  ]
+}
