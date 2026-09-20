@@ -1,0 +1,30 @@
+{
+  "domain": "Student Academic Management System",
+  "category": "Student Information",
+  "students": [
+    {
+      "student_id": "S1",
+      "name": "Rahul Sharma",
+      "attendance": 82,
+      "cgpa": 8.4
+    },
+    {
+      "student_id": "S2",
+      "name": "Priya Singh",
+      "attendance": 68,
+      "cgpa": 7.2
+    },
+    {
+      "student_id": "S3",
+      "name": "Aman Verma",
+      "attendance": 55,
+      "cgpa": 5.8
+    },
+    {
+      "student_id": "S4",
+      "name": "Sneha Gupta",
+      "attendance": 91,
+      "cgpa": 9.1
+    }
+  ]
+}
