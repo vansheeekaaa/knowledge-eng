@@ -1,0 +1,21 @@
+{
+  "domain": "Student Academic Management System",
+  "category": "Subject and Faculty Information",
+  "subjects": [
+    {
+      "subject_id": "SUB1",
+      "subject_name": "Artificial Intelligence",
+      "faculty": "Dr. Mehta"
+    },
+    {
+      "subject_id": "SUB2",
+      "subject_name": "Knowledge Engineering",
+      "faculty": "Dr. Sharma"
+    }
+  ],
+  "relationships": [
+    "Faculty teaches Subject.",
+    "Student enrolls in Subject.",
+    "Each subject is associated with a faculty member."
+  ]
+}
