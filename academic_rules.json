@@ -1,0 +1,54 @@
+{
+  "domain": "Student Academic Management System",
+  "category": "Academic Rules",
+  "rules": [
+    {
+      "condition": "Attendance >= 75%",
+      "conclusion": "Student is eligible for examination."
+    },
+    {
+      "condition": "Attendance < 75%",
+      "conclusion": "Student receives an examination eligibility warning."
+    },
+    {
+      "condition": "Attendance < 60%",
+      "conclusion": "Student has critical attendance."
+    },
+    {
+      "condition": "CGPA >= 9.0",
+      "conclusion": "Student has excellent academic performance."
+    },
+    {
+      "condition": "CGPA >= 8.0 and CGPA < 9.0",
+      "conclusion": "Student has good academic performance."
+    },
+    {
+      "condition": "CGPA >= 6.0 and CGPA < 8.0",
+      "conclusion": "Student has average academic performance."
+    },
+    {
+      "condition": "CGPA < 6.0",
+      "conclusion": "Student requires academic support."
+    },
+    {
+      "condition": "Marks >= 90",
+      "conclusion": "Subject performance is excellent."
+    },
+    {
+      "condition": "Marks >= 80 and Marks < 90",
+      "conclusion": "Subject performance is high."
+    },
+    {
+      "condition": "Marks >= 60 and Marks < 80",
+      "conclusion": "Subject performance is average."
+    },
+    {
+      "condition": "Marks >= 40 and Marks < 60",
+      "conclusion": "Subject performance is weak."
+    },
+    {
+      "condition": "Marks < 40",
+      "conclusion": "Student has failed the subject."
+    }
+  ]
+}
